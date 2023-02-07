@@ -8,11 +8,12 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/photoAlbum_toolbar"
-        android:layout_width="0dp"
-        android:layout_height="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
+        app:navigationIcon="@drawable/ic_gnb_back"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -77,22 +78,16 @@
         android:id="@+id/imageButton6"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        app:srcCompat="@drawable/cat5"
+        app:srcCompat="@drawable/cat6"
         android:scaleType="centerCrop"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageButton5"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="@id/photoAlbum_toolbar"
-        app:layout_constraintBottom_toBottomOf="@id/photoAlbum_toolbar"
-        app:layout_constraintEnd_toEndOf="@id/photoAlbum_toolbar"
-        android:layout_marginEnd="50dp"
-        android:textColor="@color/white"
-        android:text="고양이 앨범"/>
+
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
