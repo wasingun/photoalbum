@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">PhotoAlbum</string>
+    <string name="go_back">Go back</string>
+    <string name="go_back2">Go back</string>
+    <string name="go_back3">Go back</string>
+    <string name="go_back4">Go back</string>
+    <string name="go_back5">Go back</string>
+    <string name="go_back6">Go back</string>
 </resources>
